@@ -24,7 +24,7 @@ def load_data(path: str):
 #############
 # DATA LOADING
 #############
-df = load_data("C:\\MyCodes\\PYTHON\\Data Analysis\\BFP_FIreIncidents2012-2016.csv")
+df = load_data("C:\\MyCodes\PYTHON\CSDM_2_DASH_BOARD\cleaned_data_BFP_FIreIncidents2012-2016.csv")
 
 # Data Preview
 with st.expander("Data Preview"):
@@ -34,7 +34,6 @@ with st.expander("Data Preview"):
             "YEAR": st.column_config.NumberColumn(format="%d")
             }
     )
-
 # Custom CSS for flexible metrics
 st.markdown("""
     <style>
